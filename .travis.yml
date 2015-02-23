@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+install:
+- gem install s3_website
+after_success: bundle exec s3_website push --headless
+branches:
+  only:
+  - master
+env:
+  global:
+  - secure: MM+goeK00XnqCuZOIdOg2vDwnJJbAKkVYhBjXFLH0uTImTpaikJTkIji3umGe9aEfmSbrE87FU8LOTF/M5Nl8k4SRQ1g+CCip0OHyNoTsHkvvGQqub4FZjI1T4FwecKKRkkScy8dNHECMyd/OwUNTmgQJH0/D93byXRYxOXaOSU=
+  - secure: KZtZXoZm80Lr/ZMewxcFQd31/gkThHV1+2uehAxrtg5JUnKekYbCfFOz/QVxFDLzZralOzbxp6qsvXxAizBldbOtW6S66c57umj/RUqX5oQHgnSiv0iBSvvCZlEX6SRK8cVIihUmE5qiN5e9bu9GozFSoIRBKHZjeNNKypaIJYY=
