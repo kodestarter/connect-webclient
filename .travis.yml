@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.0.0
 install:
-- gem install s3_website
+- bundle install
 after_success: bundle exec s3_website push --headless
 branches:
   only:
