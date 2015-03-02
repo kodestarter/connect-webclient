@@ -6,8 +6,8 @@ install:
 script: bundle exec s3_website push
 branches:
   only:
-  - master
+  - staging
 env:
   global:
-  - secure: MM+goeK00XnqCuZOIdOg2vDwnJJbAKkVYhBjXFLH0uTImTpaikJTkIji3umGe9aEfmSbrE87FU8LOTF/M5Nl8k4SRQ1g+CCip0OHyNoTsHkvvGQqub4FZjI1T4FwecKKRkkScy8dNHECMyd/OwUNTmgQJH0/D93byXRYxOXaOSU=
-  - secure: KZtZXoZm80Lr/ZMewxcFQd31/gkThHV1+2uehAxrtg5JUnKekYbCfFOz/QVxFDLzZralOzbxp6qsvXxAizBldbOtW6S66c57umj/RUqX5oQHgnSiv0iBSvvCZlEX6SRK8cVIihUmE5qiN5e9bu9GozFSoIRBKHZjeNNKypaIJYY=
+  - secure: DxUiU8q/AMp0e0aoh2Z7X9CmyVzPMW10vZAjb3n9r/Ip6sxWMFg3FJkFErGGET4twt39wsnNYJty4H0O4iH5HiuwnP5JB7YZX6ymGqgJQdQm12bdFqlS6Eybc5P9ZBfqk4V7uugAILgF8Chsqr9S53CRr27YOsKmQd0vrinZB5E=
+  - secure: j+eKbDv5ku3nvlWqBN8JrcjvxdM6w3IyDQhKubbDggaWINabjmaZsRwxemyQAABtPdBksF8En99cxeOLQbsXxjFxCCD8cR//iyq3zaqHjBRGqnBJwS6D6q5V/LvhJ8PBZznjdZ5yhIFwL5Cgvyd1ASCeOO1fD/rWRl98lNVm1XE=
